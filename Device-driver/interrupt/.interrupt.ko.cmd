@@ -1,0 +1,1 @@
+cmd_/home/debian/project/interrupt/interrupt.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/project/interrupt/interrupt.ko /home/debian/project/interrupt/interrupt.o /home/debian/project/interrupt/interrupt.mod.o ;  true

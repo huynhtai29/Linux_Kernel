@@ -1,0 +1,1 @@
+cmd_/home/debian/project/hello_world_modules/hello_world1.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/project/hello_world_modules/hello_world1.ko /home/debian/project/hello_world_modules/hello_world1.o /home/debian/project/hello_world_modules/hello_world1.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/debian/project/GPIO/gpio_dvt.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/project/GPIO/gpio_dvt.ko /home/debian/project/GPIO/gpio_dvt.o /home/debian/project/GPIO/gpio_dvt.mod.o ;  true

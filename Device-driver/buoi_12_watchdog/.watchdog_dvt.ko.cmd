@@ -1,0 +1,1 @@
+cmd_/home/debian/project/watchdog/watchdog_dvt.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/project/watchdog/watchdog_dvt.ko /home/debian/project/watchdog/watchdog_dvt.o /home/debian/project/watchdog/watchdog_dvt.mod.o ;  true

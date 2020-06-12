@@ -1,0 +1,1 @@
+cmd_/home/debian/project/led_modules/GPIO_LED.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/project/led_modules/GPIO_LED.ko /home/debian/project/led_modules/GPIO_LED.o /home/debian/project/led_modules/GPIO_LED.mod.o ;  true
