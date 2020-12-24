@@ -1,0 +1,1 @@
+cmd_/home/debian/OS_User/SPI/spi_max_driver.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/debian/OS_User/SPI/spi_max_driver.ko /home/debian/OS_User/SPI/spi_max_driver.o /home/debian/OS_User/SPI/spi_max_driver.mod.o ;  true
