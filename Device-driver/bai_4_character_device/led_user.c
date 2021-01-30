@@ -1,5 +1,3 @@
-/* Nguyen Thanh Tung <tungnt58@fsoft.com.vn*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
